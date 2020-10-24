@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationDelete", "IntegrationDelete\IntegrationDelete.csproj", "{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Prospot Integration Delete Setup", "Prospot Integration Delete Setup\Prospot Integration Delete Setup.isproj", "{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3} = {D4F2F789-B10E-4F61-92B1-96E2F0D010F3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F2F789-B10E-4F61-92B1-96E2F0D010F3}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.Debug|Any CPU.ActiveCfg = DVD-5
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.Debug|Any CPU.Build.0 = DVD-5
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.DVD-5|Any CPU.Build.0 = DVD-5
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.Release|Any CPU.ActiveCfg = SingleImage
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.Release|Any CPU.Build.0 = SingleImage
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{7DF5E34B-36EC-4C3E-AE8F-32DFC385D4AE}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
